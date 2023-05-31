@@ -1,0 +1,16 @@
+Q = {q0;q1}
+Sigma = {a;b;c}
+delta = {(q0,a)->q1;(q1,a)->q1;(q1,b)->q1;(q1,c)->q1}
+I = q0
+F = {q1}
+
+Q = {q0;q1;q2;q3}
+Sigma = {a;b}
+delta = {(q0,a)->q0;(q0,ε)->q1;(q1,b)->q1;(q1,ε)->q2;(q2,a)->q2;(q2,ε)->q3;(q3,b)->q3}
+I = {q0}
+F = {q0;q1;q2;q3}
+
+V = {a;b;c;S;X}
+Sigma = {a;b;c}
+P = {S->aX;X->aX;X->bX;X->cX;X->ε}
+I = S

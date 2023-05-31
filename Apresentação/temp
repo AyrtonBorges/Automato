@@ -1,0 +1,4 @@
+V = {a;b;c;Q0;Q1}
+Sigma = {a;b;c}
+P = {Q0->aQ1;Q1->aQ1;Q1->bQ1;Q1->cQ1;Q1->ε}
+I = Q0
